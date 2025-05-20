@@ -1,0 +1,10 @@
+[package]
+name = "xcx_archive_tools"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0-or-later"
+
+[dependencies]
+clap = { version = "4.5.34", features = ["derive"] }
+indicatif = "0.17.11"
+xxhash-rust = { version = "0.8.15", features = ["xxh64"] }
