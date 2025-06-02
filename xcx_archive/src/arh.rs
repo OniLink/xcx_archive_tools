@@ -33,7 +33,7 @@ use std::io::BufReader;
 use indicatif::ProgressBar;
 use xxhash_rust::xxh64::xxh64;
 
-use crate::read_binary::ReadBinary;
+use read_binary::ReadBinary;
 
 
 pub struct ArhFileDescriptor {

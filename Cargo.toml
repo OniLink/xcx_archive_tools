@@ -6,5 +6,9 @@ license = "GPL-3.0-or-later"
 
 [dependencies]
 clap = { version = "4.5.34", features = ["derive"] }
-indicatif = "0.17.11"
-xxhash-rust = { version = "0.8.15", features = ["xxh64"] }
+xcx_archive = { path = "./xcx_archive" }
+
+[workspace]
+members = [
+  "read_binary", "xcx_archive",
+]

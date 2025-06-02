@@ -19,8 +19,8 @@ mod ard;
 
 use indicatif::ProgressBar;
 
-use crate::archive::arh::Arh;
-use crate::archive::ard::Ard;
+use arh::Arh;
+use ard::Ard;
 
 
 pub struct Archive {

@@ -1,0 +1,9 @@
+[package]
+name = "xcx_archive"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+indicatif = "0.17.11"
+xxhash-rust = { version = "0.8.15", features = ["xxh64"] }
+read_binary = { path = "../read_binary" }

@@ -18,7 +18,7 @@ use std::fs::File;
 use std::io;
 use std::io::{Read, Seek, Write};
 
-use crate::archive::arh::ArhFileDescriptor;
+use crate::arh::ArhFileDescriptor;
 
 pub struct Ard {
   filename: String,

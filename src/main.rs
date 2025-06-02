@@ -14,9 +14,6 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-mod archive;
-mod read_binary;
-
 use std::fs::File;
 use std::io;
 use std::io::BufRead;
@@ -24,7 +21,7 @@ use std::path::Path;
 
 use clap::{Parser, Subcommand};
 
-use crate::archive::Archive;
+use xcx_archive::Archive;
 
 
 #[derive(Parser)]
